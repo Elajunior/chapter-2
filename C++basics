@@ -1,0 +1,215 @@
+
+Introduction c++programming
+
+
+C++ is a high-level, general-purpose programming language developed by Bjarne Stroustrup in 1983. It is an extension of the C programming language and was designed to provide better support for object-oriented programming (OOP). C++ is widely used for developing operating systems, system software, device drivers, embedded software, desktop applications, and video games. It provides a wide range of features such as templates, classes, inheritance, polymorphism, and exceptions that make it a powerful and versatile language. C++ is also known for its performance and efficiency, making it a popular choice for high-performance applications.
+
+
+Preprocessor directives (#)
+
+
+Preprocessor directives are commands that are processed by the C++ preprocessor before the actual compilation of the code begins. They begin with a pound symbol (#) followed by a keyword or identifier. Some common preprocessor directives in C++ include:
+
+- #include: This directive is used to include header files in the program. Header files contain declarations of functions, variables, and classes that are used in the program.
+- #define: This directive is used to define constants or macros. Macros are pieces of code that are replaced by their values at compile-time.
+- #ifdef, #ifndef, #else, #endif: These directives are used for conditional compilation. They allow parts of the code to be compiled or excluded based on certain conditions.
+- #pragma: This directive is used to provide additional instructions to the compiler. For example, it can be used to disable certain warnings or optimize the code.
+
+Preprocessor directives are not part of the C++ language itself, but they are an important tool for controlling the compilation process and customizing the behavior of the code.
+
+
+C++ keywords (reserved words)
+
+
+C++ keywords are words that have a specific meaning in the C++ language and cannot be used for any other purpose, such as naming variables or functions. Some common C++ keywords include:
+
+- auto: This keyword is used to declare a variable with automatic storage duration.
+- break: This keyword is used to exit a loop or switch statement.
+- class: This keyword is used to define a class.
+- const: This keyword is used to declare a constant variable or function parameter.
+- continue: This keyword is used to skip to the next iteration of a loop.
+- double: This keyword is used to declare a variable of type double.
+- else: This keyword is used to define an alternative branch in an if statement.
+- enum: This keyword is used to define an enumerated type.
+- extern: This keyword is used to declare a variable or function that is defined in another file.
+- for: This keyword is used to define a loop.
+- if: This keyword is used to define a conditional statement.
+- int: This keyword is used to declare a variable of type int.
+- namespace: This keyword is used to define a namespace.
+- return: This keyword is used to return a value from a function.
+- static: This keyword is used to declare a variable or function with static storage duration.
+- struct: This keyword is used to define a structure.
+- switch: This keyword is used to define a switch statement.
+- void: This keyword is used to indicate that a function does not return a value.
+- while: This keyword is used to define a loop.
+
+
+C++ identifiers
+
+
+C++ identifiers are names given to variables, functions, classes, and other user-defined entities in a program. Some rules for creating C++ identifiers include:
+
+- Identifiers can only contain letters, digits, and underscores.
+- Identifiers must start with a letter or an underscore.
+- Identifiers are case-sensitive.
+- Identifiers cannot be the same as C++ keywords.
+
+Examples of valid C++ identifiers include:
+
+- myVar
+- my_function
+- MyClass
+- x_y_z
+
+Examples of invalid C++ identifiers include:
+
+- 123var (starts with a digit)
+- class (same as a C++ keyword)
+- my-var (contains a hyphen)
+- My_Class (capitalization is different from the first usage)
+
+
+C++comments
+
+
+C++ comments are used to add explanations and notes within the code without affecting the program's functionality. There are two types of comments in C++:
+
+1. Single-line comment: A single-line comment starts with two forward slashes (//) and continues until the end of the line. For example:
+
+// This is a single-line comment
+
+2. Multi-line comment: A multi-line comment starts with a forward slash followed by an asterisk (/*) and ends with an asterisk followed by a forward slash (*/). For example:
+
+/* This is a
+multi-line comment */
+
+Comments can be used to explain the purpose of variables, functions, or blocks of code. They can also be used to temporarily disable parts of the code for debugging purposes. It is important to use comments wisely and keep them up-to-date as the code evolves over time.
+
+
+Variables
+
+
+In C++, variables are used to store data and give it a name that can be used to refer to it later in the program. Variables have a type, which determines the kind of data that can be stored in them, and a value, which is the actual data that is stored.
+
+There are different types of variables in C++, including:
+
+1. Integer variables (int): used to store whole numbers, such as 5 or -10.
+2. Floating-point variables (float or double): used to store decimal numbers, such as 3.14 or -2.5.
+3. Character variables (char): used to store single characters, such as 'a' or '$'.
+4. Boolean variables (bool): used to store true or false values.
+
+Variables are declared by specifying their type and name, and optionally initializing them with a value. For example:
+
+int age = 25; // declares an integer variable named age and initializes it with the value 25
+
+Variables can be used in expressions and statements throughout the program, allowing the program to manipulate and process data as needed. It is important to choose appropriate variable names that reflect their purpose and make the code more readable and understandable.
+
+
+Variables declaration
+
+
+Variables are declared by specifying their type and name. For example:
+
+int age; // declares an integer variable named age
+float temperature; // declares a floating-point variable named temperature
+char letter; // declares a character variable named letter
+bool isDone; // declares a boolean variable named isDone
+
+Optionally, variables can also be initialized with a value at the time of declaration. For example:
+
+int age = 25; // declares and initializes an integer variable named age with the value 25
+float temperature = 98.6; // declares and initializes a floating-point variable named temperature with the value 98.6
+char letter = 'a'; // declares and initializes a character variable named letter with the value 'a'
+bool isDone = false; // declares and initializes a boolean variable named isDone with the value false
+
+It is important to choose appropriate variable names that reflect their purpose and make the code more readable and understandable.
+
+
+Basic data types
+
+
+There are several basic data types in programming languages, including:
+
+1. Integer: a whole number without a decimal point (e.g. 1, 2, -3)
+
+2. Floating-point: a number with a decimal point (e.g. 3.14, -2.5)
+
+3. Character: a single character (e.g. 'a', 'B', '$')
+
+4. Boolean: a value that is either true or false
+
+5. String: a sequence of characters (e.g. "hello", "world")
+
+6. Array: a collection of elements of the same type, accessed by an index
+
+7. Pointer: a variable that stores the memory address of another variable
+
+These basic data types are used to store different types of data and perform various operations on them.
+
+
+Character variables
+
+
+A character variable is a data type that stores a single character such as a letter, digit, or symbol. In most programming languages, characters are represented using the ASCII (American Standard Code for Information Interchange) code, which assigns a unique numerical value to each character. For example, the letter 'A' has an ASCII code of 65, while the number '0' has an ASCII code of 48.
+
+Character variables are commonly used in programming to represent text-based data such as names, addresses, and messages. They can be declared using the char keyword in many programming languages, and can be assigned values using single quotes. For example:
+
+char myChar = 'a';
+
+In some programming languages, character variables can also be represented using Unicode, which supports a much wider range of characters from different languages and scripts.
+
+
+Characters & numbers
+
+
+Characters and numbers are both data types used in programming. While characters represent individual letters, digits, and symbols, numbers can represent integers, decimals, and other numerical values.
+
+Both characters and numbers can be stored in variables and manipulated using various operations and functions. For example, addition and subtraction can be performed on numerical variables, while concatenation and substring operations can be performed on character variables.
+
+In some programming languages, characters and numbers are interchangeable, meaning that characters can be converted to their corresponding ASCII or Unicode values to perform mathematical operations. However, it is important to note that this may not always be appropriate or accurate for all characters.
+
+
+Input/output statements
+
+
+Input/output statements are used in programming to interact with the user or external devices. These statements allow the program to receive input from the user or send output to a display or file.
+
+Input statements are used to receive data from the user or external devices. Examples of input statements include scanf() and cin>> in C/C++ and Java, respectively. These statements prompt the user to enter data and store the input into a variable.
+
+Output statements are used to display data to the user or external devices. Examples of output statements include printf() and cout<< in C/C++ and Java, respectively. These statements display the value of a variable or a message to the user.
+
+In addition to standard input/output statements, many programming languages also provide functions for file input/output, allowing programs to read from and write to files on disk. This is particularly useful for storing data that needs to persist beyond the life of the program or for sharing data between multiple programs.
+
+
+C++ provides operators
+
+
+The << and >> operators in C++ are used for input/output statements. The << operator is used for output, while the >> operator is used for input. For example, the following code displays a message to the user and then receives input from the user:
+
+cout << "Enter your name: ";
+cin >> name;
+
+In this code, the cout statement uses the << operator to display the message "Enter your name: " to the user. The cin statement uses the >> operator to receive input from the user and store it in the variable "name".
+
+
+Control of flow
+
+
+The control of flow in programming refers to the ability to direct the order in which a program executes its statements. This can be done using conditional statements, loops, and other control structures.
+
+Conditional statements, such as if-else and switch statements, allow a program to make decisions based on certain conditions. For example, the following code uses an if statement to check if a number is even or odd:
+
+if (num % 2 == 0) {
+   cout << "The number is even";
+}
+else {
+   cout << "The number is odd";
+}
+
+Loops, such as for and while loops, allow a program to repeat a set of statements multiple times. For example, the following code uses a for loop to display the numbers from 1 to 10:
+
+for (int i = 1; i <= 10; i++) {
+   cout << i << " ";
+}
+
+Other control structures, such as break and continue statements, allow a program to interrupt or skip certain parts of its execution based on certain conditions. These control structures provide flexibility and enable programmers to create complex programs with dynamic behavior.
