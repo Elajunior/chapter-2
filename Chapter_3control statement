@@ -1,0 +1,129 @@
+
+
+The one-way if statement
+
+
+The one-way if statement is a type of conditional statement in programming that allows for the execution of code only if a certain condition is met. It is called "one-way" because it only executes the code if the condition is true and does not have an alternative path if the condition is false.
+
+The syntax for a one-way if statement is:
+
+if (condition) {
+  // code to be executed if condition is true
+}
+
+For example, if we want to check if a number is greater than 10 and print a message if it is, we can use a one-way if statement:
+
+int num = 15;
+if (num > 10) {
+  System.out.println("The number is greater than 10");
+}
+
+In this case, since the condition "num > 10" is true (since num is 15), the message "The number is greater than 10" will be printed. If the value of num was less than or equal to 10, the code inside the if statement would not be executed.
+
+
+The multi-way if-else statement
+
+
+A multi-way if-else statement is another type of conditional statement in programming that allows for the execution of different code depending on multiple conditions. It is called "multi-way" because it can have multiple paths to take, depending on the different conditions.
+
+The syntax for a multi-way if-else statement is:
+
+if (condition1) {
+  // code to be executed if condition1 is true
+} else if (condition2) {
+  // code to be executed if condition2 is true
+} else {
+  // code to be executed if all conditions are false
+}
+
+For example, if we want to check if a number is positive, negative, or zero and print a message accordingly, we can use a multi-way if-else statement:
+
+int num = -5;
+if (num > 0) {
+  System.out.println("The number is positive");
+} else if (num < 0) {
+  System.out.println("The number is negative");
+} else {
+  System.out.println("The number is zero");
+}
+
+In this case, since the value of num is negative, the message "The number is negative" will be printed. If the value of num was positive, the code inside the first if statement would be executed and the message "The number is positive" would be printed. If the value of num was zero, the code inside the else statement would be executed and the message "The number is zero" would be printed.
+
+
+1Nested if statement
+
+
+A nested if statement is a conditional statement that is placed inside another conditional statement. It allows for more complex conditions to be checked and executed based on the outcome of the outer condition.
+
+The syntax for a nested if statement is:
+
+if (condition1) {
+  // code to be executed if condition1 is true
+  if (condition2) {
+    // code to be executed if both condition1 and condition2 are true
+  }
+} else {
+  // code to be executed if condition1 is false
+}
+
+For example, if we want to check if a number is even or odd and positive or negative, we can use a nested if statement:
+
+int num = -4;
+if (num > 0) {
+  System.out.println("The number is positive");
+  if (num % 2 == 0) {
+    System.out.println("The number is even");
+  } else {
+    System.out.println("The number is odd");
+  }
+} else if (num < 0) {
+  System.out.println("The number is negative");
+  if (num % 2 == 0) {
+    System.out.println("The number is even");
+  } else {
+    System.out.println("The number is odd");
+  }
+} else {
+  System.out.println("The number is zero");
+}
+
+In this case, since the value of num is negative and even, the message "The number is negative" and "The number is even" will be printed. If the value of num was positive and odd, the code inside the second nested if statement would be executed and the message "The number is positive" and "The number is odd" would be printed.
+
+
+Two-way if-else statement
+
+
+A two-way if-else statement is a conditional statement that checks if a condition is true and executes one block of code if it is, and another block of code if it is not. It has the following syntax:
+
+if (condition) {
+  // code to be executed if condition is true
+} else {
+  // code to be executed if condition is false
+}
+
+For example, if we want to check if a number is positive or negative using a two-way if-else statement, we can use the following code:
+
+int num = -4;
+if (num > 0) {
+  System.out.println("The number is positive");
+} else {
+  System.out.println("The number is negative");
+}
+
+In this case, since the value of num is negative, the message "The number is negative" will be printed. If the value of num was positive, the message "The number is positive" would be printed.
+A nested if statement is an if statement that is placed inside another if statement. It has the following syntax:
+
+```
+if (condition1) {
+  // code to be executed if condition1 is true
+  if (condition2) {
+    // code to be executed if both condition1 and condition2 are true
+  }
+} else {
+  // code to be executed if condition1 is false
+}
+```
+
+In a nested if statement, the inner if statement will only be executed if the outer if statement is true. If the outer if statement is false, then the inner if statement will not be executed.
+
+Nested if statements can be used to create more complex decision-making logic where there are multiple conditions that need to be checked. However, it is important to keep nested if statements organized and easy to read to avoid confusion and errors in the code.
